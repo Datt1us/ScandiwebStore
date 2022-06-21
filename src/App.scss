@@ -1,0 +1,29 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+.site-container {
+  width: 85%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0;
+  // border: 2px solid violet;
+}
+
+div {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 1.5px;
+  margin: 1.5px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  &:focus {
+    color: lightseagreen;
+  }
+}
